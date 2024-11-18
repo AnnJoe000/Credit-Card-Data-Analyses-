@@ -1,0 +1,109 @@
+
+Credit Card Data Dashboard
+
+This is a Credit Card Data Dashboard, which visualizes transaction data and provides insights into customer behaviors and credit card usage. 
+Here's a breakdown of the key components:
+  The "Blue," "Gold," "Silver," and "Platinum" buttons in the Credit Card Dashboard allow users to filter and view detailed transaction data specific to each card type,
+  providing a focused analysis of spending patterns, usage behavior, and profitability for individual card categories.
+
+  1. Card Categories
+        The tabs at the top represent different card categories: Blue, Platinum, Gold, and Silver.
+        You can filter the dashboard based on these categories to analyze transactions for a specific card type.
+  2. Total Transaction Amount by Profession
+        A treemap shows the distribution of total transaction amounts based on customer professions.
+        Larger blocks indicate professions with higher transaction volumes, e.g., Businessmen, White-collar, etc.
+  3. Total Transaction by Card Usage Type
+        A pie chart breaks down transactions by the type of usage: Swipe (62.25%), Chip (31.75%), and Online (6%).
+        This provides insights into how customers prefer to use their credit cards.
+  4. Transaction Metrics
+        Avg Transaction: Displays the average transaction amount (4.39K).
+        Total Profit: Displays the total profit from transactions (244K).
+  5. Total Transaction by Expense
+        A bar chart categorizes transactions by spending types, such as Bills, Fuel, Entertainment, Food, Grocery, and Travel.
+        Bills dominate the expenses at 2.7M, followed by fuel and other categories.
+  6. Transaction Trend Over Time
+        A line graph shows how the transaction amount fluctuates over time (days or months).
+        Peaks and dips provide insights into high or low transaction periods (e.g., a peak at 931K and a dip at 785K).
+  7. Total Transaction Amount vs. Volume
+        A scatter plot shows the relationship between the Total Transaction Amount and Total Transaction Volume, segmented by card types (Blue, Gold, Platinum, Silver).
+        This helps analyze spending patterns and the frequency of transactions.
+Purpose of the Dashboard:
+  To monitor customer spending behaviors.
+  To identify which professions, expense categories, and card types drive revenue.
+  To track trends and patterns in credit card transactions over time.
+
+    
+Customer Data Dashboard
+    
+Customer Data Dashboard focused on customer satisfaction ratings and their relationship with demographic, financial, and lifestyle factors.
+Here's a detailed explanation of its components:
+
+  1. Rating by Marital Status
+      A pie chart showing how customer satisfaction ratings are distributed based on marital status:
+        Married (50.71%) forms the largest group.
+        Single (41.97%) is the second largest.
+        Unknown (7.32%) represents a smaller fraction.
+  2. Rating by Personal Loan
+        This pie chart illustrates the proportion of satisfaction ratings between customers who:
+        Do not have a personal loan (87.31%), which is the majority.
+        Have a personal loan (12.69%).
+  3. Rating by Car Owner
+      Similar to the above, this pie chart divides ratings by whether the customer owns a car:
+        Yes (59.79%): Car owners tend to have higher representation.
+        No (40.21%).
+  4. Rating of House Owner
+        A bar chart visualizing customer satisfaction scores based on house ownership:
+        Customers who own houses generally have higher satisfaction scores across the range.
+  5. Income of Rating
+        A line graph showing the relationship between income and satisfaction scores:
+        Income peaks at satisfaction scores of 1 and 4 (above 58K).
+        Lower scores (e.g., 3) correlate with slightly lower average income.
+  6. State with High Rating
+        A treemap highlighting states where customer satisfaction scores are higher:
+        CA (California) has the largest segment.
+        Other states include TX (Texas), NY (New York), and FL (Florida).
+  7. Rating by Age
+        A line graph illustrating how average customer age correlates with satisfaction scores:
+        Age peaks around scores of 2 and 4 (~46.3 years).
+  8. Rating by Job
+        A horizontal bar chart showing satisfaction ratings distributed across professions:
+        Self-employed individuals (8K) have the highest representation.
+        Other professions include Businessmen (6K), Blue-collar (5K), and so on.
+        Retirees (3K) have the smallest representation.
+  9. Rating by Education
+        A horizontal bar chart ranking satisfaction scores based on education level:
+        Graduates (13K) have the highest count.
+        Other categories include High School (7K), Post-Graduate (2K), and Doctorate (1K).
+        Uneducated and Unknown are also included with lower counts.
+  Purpose of the Dashboard:
+      To analyze how customer satisfaction correlates with demographics (e.g., marital status, age, job, education) and lifestyle factors (e.g., car or house ownership).
+      To identify trends in income and regional data (states) tied to satisfaction scores.
+      Useful for strategizing customer retention and targeted marketing efforts.
+
+Integration Between Dashboards
+    Buttons for Navigation:
+    "Transactional Data" Button: Clicking this switches to the Customer Data Dashboard.
+    "Customer Data" Button: Clicking this switches back to the Credit Card Data Dashboard.
+These buttons allow users to seamlessly toggle between transaction data and customer satisfaction insights.
+    Connection Logic
+    The two dashboards provide complementary insights:
+
+Credit Card Data Dashboard (Transaction-focused):
+
+  Highlights transaction details such as card usage types, professions, expense categories, and time trends.
+  Offers a deeper understanding of customer spending behavior and profitability.
+  Customer Data Dashboard (Customer-focused):
+
+  Focuses on customer demographics, satisfaction scores, and their relationships with financial and lifestyle factors.
+  Provides actionable insights into which customer groups (e.g., married, homeowners, or graduates) have higher satisfaction and income potential.
+Example Use Case of Connected Dashboards:
+
+A business user can start with the Credit Card Data Dashboard to:
+    Identify high-value transactions or profitable categories.
+    Narrow down on specific card types (e.g., Gold users).
+By switching to the Customer Data Dashboard:
+    The user can explore satisfaction trends and demographic data for the same group.
+    For example, they can analyze whether Gold card users have higher satisfaction if they are graduates or homeowners.
+Design Considerations for the Buttons:
+    The buttons are likely placed at the top, clearly labeled (e.g., "Transactional Data" and "Customer Data").
+    They ensure a smooth user experience by visually indicating which dashboard is active.
