@@ -1,0 +1,41 @@
+
+ Submission Note
+
+This submission includes a Power BI file designed to provide actionable insights from the credit card transaction data. Below are the details of the submission:
+
+1. Cleaned and Processed Data
+  The data has been pre-processed to ensure accuracy and consistency.
+  Unnecessary columns were removed, and null or inconsistent values were handled appropriately.
+  Data was transformed and modeled to allow seamless analysis of key metrics.
+2. Key Calculated Measures and Columns
+  The report includes the following calculated columns and measures:
+
+Calculated Columns:
+  Avg_Trans_Amt: Average transaction amount for regions.
+  Profit Margin: Percentage profitability for transactions.
+  Total_Profit: Total profit generated in specific regions.
+  utilization Target: Benchmarks for target utilization.
+  Measures:
+    Average transaction value by category and region.
+    Total sales and profit trends over time.
+    Expense distribution across different usage categories.
+3. Comprehensive Report
+  The report contains:
+    Visualizations: Including bar charts, scatter plots, pie charts, and trend graphs to explore patterns and relationships in the data.
+    Interactive Slicers: Filters for card categories, regions, professions, and transaction types.
+    Drill-Downs: Allows users to explore data hierarchies, e.g., from total transactions to individual regions or card types.
+    Bookmarks: Facilitates navigation between key insights and summary pages.
+4. Financial Insights Dashboard
+  Key Metrics:
+    Total transaction amounts by profession, card type, and expense type.
+    Average transaction values and profit margins for different regions and card categories.
+    Transaction volume trends over time and correlations with expense types.
+  Satisfaction Insights:
+    Analysis of customer satisfaction scores segmented by marital status, job, education, and geography.
+5. Submission
+  The Power BI file will be uploaded to the GitHub repository for easy access and version control.
+
+Includes:
+  Cleaned dataset.
+  Full report with calculated columns, measures, and visualizations.
+  Interactive dashboard with insights tailored to business needs.
